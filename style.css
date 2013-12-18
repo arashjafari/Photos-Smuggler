@@ -1,0 +1,71 @@
+body {
+    background-color: #8F2041;
+    color: #FF905E;
+    font-family: helvetica;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1 {
+    margin: 3px 3px 10px;
+    font-weight: lighter !important;
+    color: rgb(82, 14, 36);
+    font-size: 72px;
+}
+#contents {
+    height: 210px;
+    margin: 80px auto;
+    padding: 10px 15px;
+    text-align: center;
+    width: 800px;
+}
+.Rows {
+    margin: 5px 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.alert_succ,.alert_err { 
+    margin-top: 9px;
+    padding: 5px;
+    display: block;
+}
+.alert_succ {
+    border: 1px solid #A3E879;
+    color: #A3E879;
+}
+.alert_err {
+    border: 1px solid #E8E079;
+    color: #E8E079; 
+}
+input[type="text"] {
+    border: 3px solid #FF905E;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 400px;
+}
+input[type="text"]:focus {
+    width: 430px;
+    padding: 5px;
+    transition: width 100ms linear 0s, padding 100ms linear 0s;
+}
+#btnSend {
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #FF905E;
+    color: #FF905E;
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+#btnSend:hover, #btnSend:focus {
+    background-color: #FF905E;
+    color: #8F2041;
+    cursor: pointer;
+    transition: background-color 300ms linear 0s, color 300ms linear 0s;
+}
+#btnSend::-moz-focus-inner {
+  border: 0;
+}
+ 
